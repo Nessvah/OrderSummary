@@ -1,0 +1,129 @@
+body {
+    background-color: #E0E8FF;
+    font-family:'Red Hat Display', sans-serif;
+}
+
+h2, h3 {
+    color: #1F2F56;
+    font-family:'Red Hat Display', sans-serif;
+}
+p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #7280A7;
+}
+
+/*Background Image*/
+
+#background {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 130%;
+}
+
+#background img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+
+}
+
+/*Card */
+
+
+
+.card {
+    height: 700px;
+    width: 470px;
+    border-radius: 20px;
+
+}
+
+.column-pricing {
+    
+    padding: 5% 0 0 5%;
+}
+
+.card-img-top {
+    border-radius: 20px 20px 0 0;
+}
+.card-body {
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.orderDiv {
+    padding: 7% 10% 5% 10%;
+}
+.orderHeading {
+    font-weight: 900;
+}
+
+.planBackground {
+    border-radius: 15px;
+    background-color: #F5F7FF;
+    margin: 0 0 15px 0;
+}
+
+.music-icon {
+    text-align: center;
+   
+}
+
+.planHeading {
+    font-weight: 700;
+    font-size: 18px;
+    text-align: left;
+}
+
+.change {
+    color: #3829E0;
+}
+
+.change:hover {
+    color: #7280A7;
+}
+.btn {
+    border-radius: 15px;
+    background-color: #3829E0;
+    color: #F5F7FF;
+    font-weight: 700;
+    width: 100%;
+    margin: 15px 0 15px;
+    padding: 12px 0;
+}
+
+.btn:hover {
+    background-color: #7280A7;
+}
+
+.cancelOrder {
+    margin: 15px 0 15px;
+    padding: 5px 0;
+}
+
+.orderText {
+    color: #7280A7;
+    font-weight: 700;
+}
+
+.orderText:hover {
+    color: #1F2F56;
+}
+
+/*Footer Section*/
+
+.attribution { 
+    font-size: 12px; 
+    text-align: center; 
+    padding-top: 70px;
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
